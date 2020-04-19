@@ -1,0 +1,207 @@
+/*font-family: 'Roboto', sans-serif;*/
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+body 
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+
+
+/*   TIMETABLE   */
+
+.timetable 
+{
+    background-color: #f0f0f0;
+    color: #595959;
+}
+
+.timetable > article 
+{
+    width: 1219px;
+    height: 3em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+}
+
+/*   MAIL   */
+
+.mail 
+{
+    padding-right: 2em;
+    display: flex;
+    align-content: center;
+}
+
+.mail > a 
+{
+    color: #595959;
+    padding-left: 0.5em;
+}
+
+/*   CLOCK   */
+
+.clock 
+{
+    display: flex;
+    align-content: center;
+}
+
+.clock > span 
+{
+    padding-left: 0.5em;
+}
+
+/*   SNABSTROY   */
+
+.snabstroy > article 
+{
+    width: 1219px;
+    height: 8em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+}
+
+/*   LOGO   */
+
+.logo 
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo > .img 
+{
+    background-color: red;
+    padding: 0.5em;
+}
+
+.logo > .text 
+{
+    padding-left: 1em;
+}
+
+
+/*   INFO   */
+
+.info {
+    color: #595959;
+    align-self: center;
+    width: 20%;
+}
+
+/*   COST   */
+
+.cost 
+{
+    background-color: red;
+    align-self: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 0.5em;
+}
+
+.cost > a {
+    color: white;
+}
+
+/*   CALL   */
+
+.call 
+{
+    align-self: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 0.5em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.call > a
+{
+    color: red;
+}
+
+/*   NUMBER   */
+
+.number 
+{
+    align-self: center;
+}
+
+.number > a > span
+{
+    color: #595959;
+}
+
+/*   NAVIGATION MENU   */
+
+.navigation > article 
+{
+    margin: auto;
+    width: 1219px;
+    border-top: 2px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navigation > article > div
+{
+    padding: 1em;
+}
+
+.navigation > article > div:hover 
+{
+    border-top: 3px solid red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*   LIST   */
+
+.list > img 
+{
+    padding-right: 0.5em;
+}
+
+/*   SEARCH   */
+
+.search 
+{
+    border-left: 2px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+}
+
+.search > img 
+{
+    padding-left: 4em;
+}
+
+.search:hover {
+    border-top: 0px !important;
+    color: #595959;
+    cursor: text !important;
+}
