@@ -202,6 +202,108 @@ body
 
 .search:hover {
     border-top: 0px !important;
+    border-bottom: 1px solid black;
     color: #595959;
+    opacity: 0.3;
     cursor: text !important;
+}
+
+
+/*   INTRO   */
+
+.intro 
+{
+    background-image: url(images/beton_bunk.jpg);
+    background-size: cover;
+}
+
+.intro > article 
+{
+    margin: auto;
+    width: 1219px;
+}
+
+.intro > article > div 
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+/*   */
+
+.intro > article > div > .h1 
+{
+    width: 30%;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+/*   */
+
+.intro > article > div > .h2
+{
+    width: 50%;
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+} 
+
+/*   */
+
+.intro > article > div > .more 
+{
+    width: 16%;
+    border: 2px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.intro > article > div > .more > p 
+{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 25px 15px 25px;
+}
+
+.intro > article > div > .more:hover 
+{
+    cursor: pointer;
+}
+
+/*   */
+
+.intro > article > div > .curcle 
+{
+    width: 25%;
+    margin: auto;
+}
+
+.intro > article > div > .curcle:hover 
+{
+    cursor: pointer;
+}
+
+/*   MAIN   */
+
+.main > article 
+{
+    margin: auto;
+    width: 1219px;
+    display: flex;
+}
+
+.main > article > aside 
+{
+    width: 25%;
+}
+
+.main > article > main 
+{
+    width: 75%;
 }
