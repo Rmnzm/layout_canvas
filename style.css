@@ -307,3 +307,39 @@ body
 {
     width: 75%;
 }
+
+/*   TYPES   */
+
+.column1
+{
+    width: 90%;
+}
+
+.sub-menu 
+{ 
+   display: none;
+   list-style: none; 
+} 
+.name:focus ~ .sub-menu, 
+.name:active ~ .sub-menu, 
+.sub-menu:hover 
+{ 
+   display: block; 
+} 
+
+.type > .sub-menu > li > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.type > .sub-menu > li > a:hover
+{
+    font-weight: 700;
+}
+
+.type > .name 
+{
+    background: gray;
+    padding: 1em;
+}
