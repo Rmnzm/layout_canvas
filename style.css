@@ -303,6 +303,12 @@ body
     width: 25%;
 }
 
+.main > article > aside > h3 
+{
+    padding: 1em;
+    font-weight: 100;
+}
+
 .main > article > main 
 {
     width: 75%;
@@ -325,15 +331,25 @@ body
 .sub-menu:hover 
 { 
    display: block; 
+}
+
+.type > .sub-menu > li > div
+{
+    padding: 1em;
+}
+
+.type > .sub-menu > li > div:hover
+{
+    cursor: pointer;
 } 
 
-.type > .sub-menu > li > a
+.type > .sub-menu > li > div > a
 {
     text-decoration: none;
     color: black;
 }
 
-.type > .sub-menu > li > a:hover
+.type > .sub-menu > li > div > a:hover
 {
     font-weight: 700;
 }
@@ -342,4 +358,9 @@ body
 {
     background: gray;
     padding: 1em;
+}
+
+.type > .name:hover
+{
+    cursor: pointer;
 }
