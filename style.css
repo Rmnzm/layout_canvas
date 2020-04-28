@@ -309,11 +309,6 @@ body
     font-weight: 700;
 }
 
-.main > article > main 
-{
-    width: 75%;
-}
-
 /*   TYPES   */
 
 /*   COLUMN 1*/
@@ -404,6 +399,8 @@ body
     padding: 1em;
 }
 
+/*   SALES   */
+
 .column2 > .sale
 {
     width: 90%;
@@ -420,7 +417,12 @@ body
 
 /*Опустить вниз надпись Скидка*/
 
-.column2 > .sale > .img > p
+.column2 > .sale > .img > div
+{
+    padding-top: 1em;
+}
+
+.column2 > .sale > .img > div > p
 {
     border: 1px solid red;
     border-radius: 25px;
@@ -430,3 +432,62 @@ body
     color: white;
     background-color: red;
 }
+
+/*   TEXT SALES   */
+
+.text
+{
+    background: black;
+    border-top: 1px solid red;
+}
+
+.text > .a
+{
+    padding: 1em;
+}
+
+.text > .a > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.text > .a > a:hover
+{
+    text-decoration: underline;
+}
+
+/*   ALL SALES   */
+
+.column2 > .all-sales > a
+{
+    padding: 1em;
+    color: red;
+    text-decoration: none;
+}
+
+.column2 > .all-sales > a:hover
+{
+    text-decoration: underline;
+}
+
+.column2 > .all-sales
+{
+    padding-bottom: 1em;
+}
+
+/*   MAIN   WAYS   */
+
+.main > article > main 
+{
+    width: 75%;
+}
+
+.main > article > main > h2
+{
+    padding: 0.8em;
+    font-weight: 700;
+}
+
+/*   MAIN HEAD   */
+
