@@ -435,24 +435,24 @@ body
 
 /*   TEXT SALES   */
 
-.text
+.sale > .text
 {
     background: black;
     border-top: 1px solid red;
 }
 
-.text > .a
+.sale > .text > .a
 {
     padding: 1em;
 }
 
-.text > .a > a
+.sale > .text > .a > a
 {
     text-decoration: none;
     color: white;
 }
 
-.text > .a > a:hover
+.sale > .text > .a > a:hover
 {
     text-decoration: underline;
 }
@@ -491,3 +491,57 @@ body
 
 /*   MAIN HEAD   */
 
+.main-head-box 
+{
+    display: flex;
+}
+
+.main-head-box > .main-head-1, .main-head-2
+{
+    width: 45%;
+    padding: 1em;
+}
+
+.main-head-1 > .main-head-box-img
+{
+    background: url(images/remont.jpg);
+    background-size: cover;
+    height: 15em;
+}
+
+.main-head-2 > .main-head-box-img
+{
+    background: url(images/ingeniring.jpg);
+    background-size: cover;
+    height: 15em;
+}
+
+.main-head-box-text
+{
+    background: gray;
+    border-top: 1px solid red;
+    padding: 1em;
+}
+
+.main-head-box-text > h4
+{
+    padding-bottom: 1em;
+}
+
+.main-head-box-text > h4 > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.main-head-box-text > h4 > a:hover
+{
+    text-decoration: underline;
+}
+
+.main-head-box-text > p
+{
+    color: #f0f0f0;
+}
+
+/*   LOGO   MAIN-BOX   (через позиционирование выставить)*/
