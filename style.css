@@ -494,12 +494,13 @@ body
 .main-head-box 
 {
     display: flex;
+    margin: auto;
+    justify-content: space-around;
 }
 
 .main-head-box > .main-head-1, .main-head-2
 {
     width: 45%;
-    padding: 1em;
 }
 
 .main-head-1 > .main-head-box-img
@@ -572,4 +573,70 @@ body
     position: relative;
     bottom: 11.3em;
     left: 16.5em;
+}
+
+/*   Main Content   */
+
+.main-content 
+{
+    margin: auto;
+}
+
+.main-content > .main-content-head 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.main-content > .main-content-head > .line {
+    height: 2px;
+    background: red;
+    width: 25%;
+}
+
+
+/*   BOXES   */
+
+.main-content-intro 
+{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
+    padding-top: 2em;
+}
+
+.main-content-intro > .box 
+{
+    width: 30%;
+}
+
+.main-content-intro > .box > .logo > img
+{
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+.main-content-intro > .box > .head > h4 
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.main-content-intro > .box > .line
+{
+    margin: auto;
+    width: 20%;
+    height: 2px;
+    background: red;
+    margin-bottom: 1em;
+}
+
+.main-content-intro > .box > .text 
+{
+    text-align: center;
 }
