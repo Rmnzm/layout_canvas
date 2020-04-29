@@ -545,3 +545,31 @@ body
 }
 
 /*   LOGO   MAIN-BOX   (через позиционирование выставить)*/
+
+.main-head-1 > .main-head-back
+{
+    position: relative;
+    bottom: 10em;
+    left: 20em;
+}
+
+.main-head-1 > .main-head-logo
+{
+    position: relative;
+    bottom: 11.5em;
+    left: 16.3em;
+}
+
+.main-head-2 > .main-head-back
+{
+    position: relative;
+    bottom: 10em;
+    left: 20em;
+}
+
+.main-head-2 > .main-head-logo
+{
+    position: relative;
+    bottom: 11.3em;
+    left: 16.5em;
+}
