@@ -640,3 +640,57 @@ body
 {
     text-align: center;
 }
+
+/*   LINE   */
+
+.main-line 
+{
+    width: 95%;
+    height: 2px;
+    margin: auto;
+    background: red;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*   MAIN COLUMNS   */
+
+.main-columns
+{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-columns > .main-column
+{
+    width: 30%;
+}
+
+.main-columns > .main-column > .main-column-img-1
+{
+    background: url(images/opalubka_typ.png);
+    background-size: cover;
+    height: 10em;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.main-column > .main-column-img-2
+{
+    background: url(images/opalubka_naznach.png);
+    background-size: cover;
+    height: 10em;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.main-column > .main-column-img-3
+{
+    background: url(images/opalubka_material.png);
+    background-size: cover;
+    height: 10em;
+    width: 100%;
+    margin-bottom: 2em;
+}
