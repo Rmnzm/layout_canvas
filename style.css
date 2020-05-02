@@ -1070,3 +1070,159 @@ footer > section
     font-weight: 700;
     font-size: 18px;
 }
+
+/* FORM */
+
+.form
+{
+    width: 1219px;
+}
+
+.form-wrap
+{
+    width: 50%;
+    margin: auto;
+    padding-top: 2em;
+}
+
+.form-wrap > h1
+{
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 0.5em;
+}
+
+.name
+{
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.name > input
+{
+    width: 100%;
+    height: 2em;
+}
+
+.mail-tel
+{
+    display: flex;
+    padding-bottom: 1em;
+    justify-content: space-between;
+}
+
+.mail-tel > .email
+{
+    width: 49%;
+}
+
+.mail-tel > .email > input
+{
+    width: 100%;
+    height: 2em;
+}
+
+.mail-tel > .tel
+{
+    width: 49%;
+}
+
+.mail-tel > .tel > input
+{
+    width: 100%;
+    height: 2em;
+}
+
+.lenght-size
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lenght-size > .lenght
+{
+    width: 49%;
+}
+
+.lenght-size > .lenght > input
+{
+    width: 100%;
+    height: 2em;
+}
+
+.lenght-size > .size
+{
+    width: 49%;
+}
+
+.lenght-size > .size > input
+{
+    width: 100%;
+    height: 2em;
+}
+
+.upload 
+{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.upload:hover
+{   
+    cursor: pointer;
+}
+
+input[type=file]
+{
+    outline: 0;
+    opacity: 0;
+    position: relative;
+    right: 12em;
+}
+
+input[type=file]:hover 
+{
+    cursor: pointer;
+}
+
+.title:hover
+{
+    cursor: pointer;
+}
+
+.label img,.upload .label .title:hover
+{
+    cursor: pointer;
+}
+
+.label img,.upload .label .title 
+{
+    color: red;
+    text-decoration: underline;
+    transition: 200ms color;
+    -webkit-transition: 200ms color;
+    -moz-transition: 200ms color;
+    -ms-transition: 200ms color;
+    -o-transition: 200ms color;
+}
+
+.button
+{
+    display: flex;
+    justify-content: center;
+}
+
+button 
+{
+    background-color: red;
+    padding: 0.5em 1em;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}

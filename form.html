@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма</title>
+</head>
+<body>
+    <div class="form">
+        <div class="form-wrap">
+            <h1>Расчет стоимости</h1>
+            <form action="" method="POST">
+                <div class="name">
+                    <label for="name">Представтесь, пожалуйста:</label>
+                    <br>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="mail-tel">
+                    <div class="email">
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="text" name="email" required>
+                    </div>
+                    <div class="tel">
+                        <label for="tel">Телефон:</label>
+                        <br>
+                        <input type="tel" name="tel" requiredl>
+                    </div>
+                </div>
+                <div class="lenght-size">
+                    <div class="lenght">
+                        <label for="lenght">Длина стен:</label>
+                        <br>
+                        <input type="text" name="lenght" required>
+                    </div>
+                    <div class="size">
+                        <label for="size">Высота стен:</label>
+                        <br>
+                        <input type="text" name="size" required>
+                    </div>
+                </div>
+                <div class="upload">
+                    <label for="" class="label">
+                        <img src="images/figures/clip.png" alt="">
+                        <span class="title">Прикрепите файл</span>
+                        <input type="file">
+                    </label>
+                </div>
+                <div class="button">
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
