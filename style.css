@@ -365,7 +365,7 @@ body
 
 .type > .name 
 {
-    background: gray;
+    background: #f0f0f0;
     padding: 1em;
 }
 
@@ -666,6 +666,8 @@ body
 .main-columns > .main-column
 {
     width: 30%;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #595959;
 }
 
 .main-columns > .main-column > .main-column-img-1
@@ -674,7 +676,6 @@ body
     background-size: cover;
     height: 10em;
     width: 100%;
-    margin-bottom: 2em;
 }
 
 .main-column > .main-column-img-2
@@ -683,7 +684,6 @@ body
     background-size: cover;
     height: 10em;
     width: 100%;
-    margin-bottom: 2em;
 }
 
 .main-column > .main-column-img-3
@@ -692,5 +692,381 @@ body
     background-size: cover;
     height: 10em;
     width: 100%;
-    margin-bottom: 2em;
+}
+
+.main-column > .main-column-text > h5
+{
+    font-size: 18px;
+    padding: 1em;
+}
+
+.main-column > .main-column-text > p
+{
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.main-column > .main-column-text > p > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.main-column > .main-column-text > p > a:hover
+{
+    text-decoration: underline;
+}
+
+/*   ABOUT   COMPANY   */
+
+.about 
+{
+    width: 95%;
+    margin: auto;
+}
+
+.about > h2
+{
+    padding: 1em 0 1em 0;
+}
+
+.about > p
+{
+    padding-bottom: 1em;
+    font-size: 18px;
+}
+
+.about > p > a
+{
+    color: red;
+    text-decoration: underline;
+}
+
+/*   OBJECT LINE   */
+
+.objects-head
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 1em 0 2em 0;
+}
+
+.objects-head > .object-line 
+{
+    height: 2px;
+    background: black;
+    width: 32%;
+}
+
+/*   ObJECT COLUMNS   */
+
+.objects-columns
+{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.object-column-1,.object-column-2
+{
+    padding-right: 2em;
+}
+
+.object-column-1 > .object-img
+{
+    background: url(images/ges2.jpg);
+    background-size: cover;
+    height: 10em;
+}
+
+.object-column-2 > .object-img
+{
+    background: url(images/zk.jpg);
+    background-size: cover;
+    height: 10em;
+}
+
+.object-column-3 > .object-img
+{
+    background: url(images/ges.jpg);
+    background-size: cover;
+    height: 10em;
+}
+
+/*   COLUMN OBJECT 1*/
+
+.object-column-1 > .object-text
+{
+    padding: 1em 0 1em 0;
+}
+
+.object-column-1 > .object-text > h3
+{
+    padding-bottom: 0.5em;
+    font-size: 22px;
+}
+
+.object-column-1 > .object-text > p
+{
+    color: #595959
+}
+
+.object-column-1 > .object-text > h3 > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.object-column-1 > .object-text > h3 > a:hover
+{
+    text-decoration: underline;
+}
+
+/*   COLUMN OBJECT 2 */
+
+.object-column-2 > .object-text
+{
+    padding: 1em 0 1em 0;
+}
+
+.object-column-2 > .object-text > h3
+{
+    padding-bottom: 0.5em;
+    font-size: 22px;
+}
+
+.object-column-2 > .object-text > p
+{
+    color: #595959
+}
+
+.object-column-2 > .object-text > h3 > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.object-column-2 > .object-text > h3 > a:hover
+{
+    text-decoration: underline;
+}
+
+/* COLUMN OBJECT 3*/
+
+.object-column-3 > .object-text
+{
+    padding: 1em 0 1em 0;
+}
+
+.object-column-3 > .object-text > h3
+{
+    padding-bottom: 0.5em;
+    font-size: 22px;
+}
+
+.object-column-3 > .object-text > p
+{
+    color: #595959
+}
+
+.object-column-3 > .object-text > h3 > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.object-column-3 > .object-text > h3 > a:hover
+{
+    text-decoration: underline;
+}
+
+/*   ALL OBJECTS   */
+
+.all-objects 
+{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.all-objects > p > a
+{
+    color: red;
+    text-decoration: none;
+}
+
+.all-objects > p > a:hover 
+{
+    text-decoration: underline;
+}
+
+.all-objects > p > a > img
+{
+    padding-left: 0.5em;
+}
+
+
+/* FOOTER */
+
+footer 
+{
+    background-color: black;
+}
+
+footer > section
+{
+    margin: auto;
+    width: 1219px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*   CONTAINER 1   */
+
+.container-1
+{
+    width: 25%;
+}
+
+.container-1 > .logo
+{
+    display: flex;
+    align-content: center;
+    padding-bottom: 1em;
+}
+
+.container-1 > .logo > .img
+{
+    margin-right: 0.5em;
+}
+
+.copyright > p
+{   
+    color: #595959;
+}
+
+/* CONTAINER 2 */
+
+.container-2 
+{
+    width: 15%;
+}
+
+.container-2 > .menu > h3
+{
+    color: #595959;
+    padding-bottom: 1em;
+}
+
+.container-2 > .menu > p
+{
+    padding-bottom: 0.5em;
+}
+
+.container-2 > .menu > p > a
+{
+    color: #595959;
+    text-decoration: none;
+}
+
+.container-2 > .menu > p > a:hover
+{
+    text-decoration: underline;
+}
+
+/* CONTAINER 3 */
+
+.container-3
+{
+    width: 35%;
+}
+
+.container-3 > .contacts
+{
+    color: #595959;
+}
+
+.container-3 > .contacts > h3 
+{
+    padding-bottom: 1em;
+}
+
+.container-3 > .contacts > .adress > p
+{
+    padding-bottom: 1em;
+}
+
+.container-3 > .contacts > .adress > p > a
+{
+    color: #595959;
+    text-decoration: underline;
+}
+
+.container-3 > .contacts > .tel 
+{
+    font-size: 24px;
+    color: #f0f0f0;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.container-3 > .contacts > .offer-call
+{
+    padding-top: 1em;
+}
+
+.container-3 > .contacts > .offer-call > p > a
+{
+    color: #f0f0f0;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* CONTAINER 4 */
+
+.container-4 
+{
+    width: 30%;
+    color: #595959;
+}
+
+.container-4 > h3
+{
+    font-size: 16px;
+    padding-bottom: 1em;
+}
+
+.container-4 > p 
+{
+    padding-bottom: 1em;
+}
+
+.container-4 > div
+{
+    border: 1px solid red;
+    background-color: red;
+    height: 3em;
+    width: 90%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-4 > div > a
+{
+    color: #f0f0f0;
+    font-weight: 700;
+    font-size: 18px;
 }
