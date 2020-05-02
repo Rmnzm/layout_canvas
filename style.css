@@ -719,24 +719,24 @@ body
 
 /*   ABOUT   COMPANY   */
 
-.about 
+.about-comp 
 {
     width: 95%;
     margin: auto;
 }
 
-.about > h2
+.about-comp > h2
 {
     padding: 1em 0 1em 0;
 }
 
-.about > p
+.about-comp > p
 {
     padding-bottom: 1em;
     font-size: 18px;
 }
 
-.about > p > a
+.about-comp > p > a
 {
     color: red;
     text-decoration: underline;
