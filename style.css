@@ -86,6 +86,11 @@ body
     align-items: center;
 }
 
+.logo:hover
+{
+    cursor: pointer;
+}
+
 .logo > .img 
 {
     background-color: red;
@@ -325,7 +330,7 @@ body
 */
 
 
-.name
+.names
 {
     font-size: 18px;
 }
@@ -335,8 +340,8 @@ body
    display: none;
    list-style: none; 
 } 
-.name:focus ~ .sub-menu, 
-.name:active ~ .sub-menu, 
+.names:focus ~ .sub-menu, 
+.names:active ~ .sub-menu, 
 .sub-menu:hover 
 { 
    display: block; 
@@ -363,13 +368,13 @@ body
     font-weight: 700;
 }
 
-.type > .name 
+.type > .names 
 {
     background: #f0f0f0;
     padding: 1em;
 }
 
-.type > .name:hover
+.type > .names:hover
 {
     cursor: pointer;
 }
@@ -923,6 +928,7 @@ footer > section
     width: 1219px;
     padding-top: 1em;
     padding-bottom: 1em;
+    margin-bottom: -2em;
     display: flex;
     justify-content: space-between;
 }
@@ -1008,7 +1014,7 @@ footer > section
     text-decoration: underline;
 }
 
-.container-3 > .contacts > .tel 
+.container-3 > .contacts > .tell
 {
     font-size: 24px;
     color: #f0f0f0;
@@ -1078,6 +1084,12 @@ footer > section
     width: 1219px;
 }
 
+form
+{
+    font-size: 12px;
+    font-weight: 700;
+}
+
 .form-wrap
 {
     width: 50%;
@@ -1085,7 +1097,17 @@ footer > section
     padding-top: 2em;
 }
 
-.form-wrap > h1
+.form > .form-wrap > div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.krest:hover
+{
+    cursor: pointer;
+}
+.form-wrap > div > div > h1
 {
     font-size: 36px;
     font-weight: 700;
@@ -1096,6 +1118,11 @@ footer > section
 {
     width: 100%;
     padding-bottom: 1em;
+}
+
+.name > label
+{
+    font-size: 12px;
 }
 
 .name > input
@@ -1161,6 +1188,17 @@ footer > section
     height: 2em;
 }
 
+.comment
+{
+    padding-top: 1em;
+}
+
+.comment > input
+{
+    width: 100%;
+    height: 4em;
+}
+
 .upload 
 {
     margin-top: 1em;
@@ -1212,6 +1250,11 @@ input[type=file]:hover
     justify-content: center;
 }
 
+.button > button:hover
+{
+    cursor: pointer;
+}
+
 button 
 {
     background-color: red;
@@ -1226,3 +1269,38 @@ button
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
+
+/*  МОДАЛ  */
+
+.modalDialog 
+{
+    position: fixed;
+    width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	background: #fff;
+}
+
+
+
+

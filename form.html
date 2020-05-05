@@ -7,9 +7,16 @@
     <title>Форма</title>
 </head>
 <body>
-    <div class="form">
+    <div class="form modailDialog" id="openModal">
         <div class="form-wrap">
-            <h1>Расчет стоимости</h1>
+            <div>
+                <div>
+                    <h1>Расчет стоимости</h1>
+                </div>
+                <div class="krest">
+                    <img src="images/figures/signs.png" alt="KREST">
+                </div>
+            </div>
             <form action="" method="POST">
                 <div class="name">
                     <label for="name">Представтесь, пожалуйста:</label>
@@ -38,6 +45,13 @@
                         <label for="size">Высота стен:</label>
                         <br>
                         <input type="text" name="size" required>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="comment">
+                        <label for="comment">Комментарий:</label>
+                        <br>
+                        <input type="text" name="comment">
                     </div>
                 </div>
                 <div class="upload">

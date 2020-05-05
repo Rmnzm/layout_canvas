@@ -43,13 +43,13 @@
                 </div>
                 <!--   -->
                 <div class="cost">
-                    <a href="#"><div>
+                    <a href="#openModal"><div>
                         Расчитать стоимость опалубки
                     </div></a>
                 </div>
                 <!--   -->
                 <div class="call">
-                    <a href="#"><div>
+                    <a href="#openModal"><div>
                         Обратный звонок
                     </div></a>
                 </div>
@@ -123,7 +123,7 @@
                 <h2>Опалубка</h2>
                 <div class="column1">
                     <div class="type">
-                        <div class="name" tabindex="1">По типу</div> 
+                        <div class="names" tabindex="1">По типу</div> 
                             <ul class="sub-menu"> 
                                <li><div><a href="#1">Несъемная</a></div></li> 
                                <li><div><a href="#2">Съемная</a></div></li> 
@@ -134,7 +134,7 @@
                             </ul>
                     </div>
                     <div class="type">
-                        <div class="name" tabindex="1">По устройству</div>  
+                        <div class="names" tabindex="1">По устройству</div>  
                             <ul class="sub-menu"> 
                                <li><div><a href="#1">Несъемная</a></div></li> 
                                <li><div><a href="#2">Съемная</a></div></li> 
@@ -145,7 +145,7 @@
                             </ul>
                     </div>
                     <div class="type">
-                        <div class="name" tabindex="1">По назначению</div> 
+                        <div class="names" tabindex="1">По назначению</div> 
                             <ul class="sub-menu"> 
                                <li><div><a href="#1">Несъемная</a></div></li> 
                                <li><div><a href="#2">Съемная</a></div></li> 
@@ -404,23 +404,83 @@
                         <p>г. Москва, ул. Антона-Овсиенко, д. 15 стр. 3</p>
                         <p><a href="">snabsrtoy@inbox.ru</a></p>
                     </div>
-                    <div class="tel">
+                    <div class="tell">
                         <p>+7 (499) 256-89-64</p>
                     </div>
                     <div class="worktime">
                         <p>Режим работы: с 9:00 до 18:00</p>
                     </div>
                     <div class="offer-call">
-                        <p><a href="">Заказать обратный звонок</a></p>
+                        <p><a href="#openModal">Заказать обратный звонок</a></p>
                     </div>
                 </div>
             </article>
             <article class="container-4">
                 <h3>ХОТИТЕ УЗНАТЬ СТОИМОСТЬ ОПАЛУБКИ?</h3>
                 <p>На нашем сайте вы можете расчитать стоимость опалубки прямо на главной странице</p>
-                <div><a href="">Расчет стоимости опалубки</a></div>
+                <div><a href="#openModal">Расчет стоимости опалубки</a></div>
             </article>
         </section>
     </footer>
+    <div class="form modalDialog" id="openModal">
+        <div class="form-wrap">
+            <div>
+                <div>
+                    <h1>Расчет стоимости</h1>
+                </div>
+                <div class="krest">
+                    <a href="#close" class="close" title="Закрыть"><img src="images/figures/signs.png" alt="KREST"></a>
+                </div>
+            </div>
+            <form action="" method="POST">
+                <div class="name">
+                    <label for="name">Представтесь, пожалуйста:</label>
+                    <br>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="mail-tel">
+                    <div class="email">
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="text" name="email" required>
+                    </div>
+                    <div class="tel">
+                        <label for="tel">Телефон:</label>
+                        <br>
+                        <input type="tel" name="tel" requiredl>
+                    </div>
+                </div>
+                <div class="lenght-size">
+                    <div class="lenght">
+                        <label for="lenght">Длина стен:</label>
+                        <br>
+                        <input type="text" name="lenght" required>
+                    </div>
+                    <div class="size">
+                        <label for="size">Высота стен:</label>
+                        <br>
+                        <input type="text" name="size" required>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="comment">
+                        <label for="comment">Комментарий:</label>
+                        <br>
+                        <input type="text" name="comment">
+                    </div>
+                </div>
+                <div class="upload">
+                    <label for="" class="label">
+                        <img src="images/figures/clip.png" alt="">
+                        <span class="title">Прикрепите файл</span>
+                        <input type="file">
+                    </label>
+                </div>
+                <div class="button">
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
